@@ -1,0 +1,48 @@
+.grid {
+    font-size: 20px;
+    display: block;
+}
+
+.grid > div > input {
+    font-family: "Courier", Times;
+    font-size: 20px;
+    height: 50px;
+    width: 30px;
+    padding-left: 20px;
+    float: left;
+    border: 1px dotted black;
+    font-weight: bold;
+}
+
+.top_row input {
+    border-top: 4px solid black !important;
+}
+
+.subgrid_border_row input {
+    border-bottom: 4px solid black !important;
+}
+
+.leftmost_cell {
+    border-left: 4px solid black !important;
+}
+
+.subgrid_border_cell {
+    border-right: 4px solid black !important;
+}
+
+.solved_cell {
+    color: blue;
+}
+
+.row,
+.top_row,
+.subgrid_border_row {
+    clear: both;
+}
+
+.solve_button {
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    font-size: 1em;
+}
